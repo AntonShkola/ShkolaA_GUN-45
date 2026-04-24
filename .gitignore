@@ -4,8 +4,6 @@ Logs/
 Temp/
 UserSettings/
 
-
-
 ### C++
 # Object files
 *.o
@@ -56,7 +54,7 @@ UserSettings/
 
 # NuGet Packages
 *.nupkg
-**/[Pp]ackages/*
+
 !**/[Pp]ackages/build/
 
 # .NET build artifacts
@@ -168,3 +166,8 @@ x86/
 
 # Built Visual Studio Code Extensions
 *.vsix
+
+# Do not ignore
+
+!/Packages/
+!/Packages/**/*

@@ -1,4 +1,4 @@
-# ====================== UNITY GENERATED ======================
+# === Unity Generated & Temporary (игнорируем) ===
 /Library/
 /Temp/
 /Obj/
@@ -8,29 +8,26 @@
 /UserSettings/
 /MemoryCaptures/
 
-# ====================== PACKAGES & PLUGINS ======================
-# UPM-пакеты (Zenject, Extenject и любые другие)
+# === Важные папки (явно включаем — то, что тебе нужно) ===
 !/Packages/
 !/Packages/**/*
+!/ProjectSettings/
+!/ProjectSettings/**/*
 
-# Классические плагины (если Zenject лежит в Assets)
+# === Плагины Zenject (на всякий случай) ===
 !/Assets/Plugins/
 !/Assets/Plugins/**/*
 !/Assets/Zenject/
 !/Assets/Zenject/**/*
 
-# ====================== META-ФАЙЛЫ ======================
-# Разрешаем все .meta (очень важно!)
+# === Meta-файлы (обязательно включаем) ===
 !**/*.meta
 
-# ====================== ОСНОВНЫЕ ИГНОРЫ ======================
-# Windows
+# === ОС и мусор ===
+.DS_Store
 Thumbs.db
 [Dd]esktop.ini
 $RECYCLE.BIN/
 *.lnk
-
-# Общие
 *.log
 *.tmp
-.DS_Store
